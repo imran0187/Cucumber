@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4206590483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user is able to register an account",
+        "description": "",
+        "id": "user-registration-feature;verify-user-is-able-to-register-an-account",
+        "after": [
+          {
+            "result": {
+              "duration": 608123643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2414321612,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home page",
+            "match": {
+              "location": "Stepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1243101177,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on registration button",
+            "match": {
+              "location": "Stepdefs.i_click_on_registration_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42714113,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify registration page is displayed",
+            "match": {
+              "location": "RegistrationSteps.i_verify_registration_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17631914170,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter all valid information on registration",
+            "match": {
+              "location": "RegistrationSteps.i_enter_all_valid_information_on_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5027413960,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify registration successful message is displayed",
+            "match": {
+              "location": "RegistrationSteps.i_verify_registration_successful_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user registration feature",
+    "description": "",
+    "id": "user-registration-feature",
+    "keyword": "Feature",
+    "uri": "Registration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sanity"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+Steps/Hooks.class
+AppTest/TestRunner.class
+Base/BaseUtil.class
+Steps/RegistrationSteps.class
+Pojo/Users.class
+page_repo/HomePageObject.class
+page_repo/RegistrationPageObject.class
+Steps/Stepdefs.class
+Utils/RandomGenerator.class
+Steps/UserRegistrationSteps.class
